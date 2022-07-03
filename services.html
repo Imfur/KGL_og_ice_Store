@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<head>
+        <style>
+    li {
+  float: left;
+}
+.dropbtn {
+margin-right: 60px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    color: black;
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: white}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightblue;
+}
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KGL og ice Store - Services Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="tm-container">        
+        <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col-left">
+                    
+                        <div class="media-body">
+                            <h1 class="tm-sitename text-uppercase">KGL og ice Store</h1>
+                            <p class="tm-slogon">Ice Drip</p>
+                         
+                    </div>
+                </div>
+                <div class="tm-col-right">
+                    <nav class="navbar navbar-expand-lg" id="tm-main-nav">
+                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button" 
+                            data-toggle="collapse" data-target="#navbar-nav" 
+                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                            <ul class="navbar-nav text-uppercase">
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link tm-nav-link" href="services.html">Products <span class="sr-only">(current)</span></a>
+                                </li>                            
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="contact.html">Contact</a>
+                                </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="history.html">History</a>
+                                </li>
+                                <div class="dropdown">
+                                        <button class="dropbtn">Login</button>
+                                        <div class="dropdown-content">
+                                            <a href="admin/login.php">Admin</a>
+                                            <a href="admin/userlogin.php">User</a>
+                                        </div>
+                            </ul>                            
+                        </div>                        
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="tm-row">
+                <div class="tm-col-left"></div>
+                <main class="tm-col-right">
+                    <section class="tm-content">
+                        <div class="media my-3 mb-5 tm-service-media tm-service-media-img-l">
+                            <a href="contact.html"><img src="img/services-1.jpg" alt="Image" class="tm-service-img"></a>
+                            <div class="media-body tm-service-text">
+                                <h2 class="mb-4 tm-content-title">Catbird *$1,000 - $1,400*</h2>
+                                <p>Catbird's mission is to make beautiful, sparkling, responsibly made jewelry (and more!) that will bring you joy now through forever.</p>
+                            </div> 
+                        </div>
+                        <div class="media my-3 mb-5 tm-service-media">                            
+                            <div class="media-body tm-service-text">
+                                <h2 class="mb-4 tm-content-title">Verlas * $1,972 - $8,298*</h2>
+                                <p>Verlas offers quality diamond jewellery you can feel good about. The brand uses ethically-sourced, top-tier diamonds and gemstones from world-class mines.</p>
+                            </div> 
+                            <a href="contact.html"><img src="img/services-2.jpg" alt="Image" class="tm-service-img-r"></a>
+                        </div>
+                        <div class="media my-3 tm-service-media tm-service-media-img-l">
+                            <a href="contact.html"><img src="img/services-3.jpg" alt="Image" class="tm-service-img"></a>
+                            <div class="media-body tm-service-text">
+                                <h2 class="mb-4 tm-content-title">Hidden Bail Cross Pendant  *$800 - 1,065*</h2>
+                                <p>This Icebox Hidden Bail Cross Pendant is made of 14K Yellow gold with 0.35ctw of diamonds. This piece is handcrafted and manufactured by Ice Zone Jewerly Shop.</p>
+                            </div> 
+
+                        </div>  
+                        <a href="#" style="color: white;margin-top: 100px;"><p>Load More</p></a>                    
+                    </section>
+                </main>
+            </div>
+        </div>        
+        <div class="tm-row">
+            <div class="tm-col-left text-center">            
+                <ul class="tm-bg-controls-wrapper">
+                    <li class="tm-bg-control active" data-id="0"></li>
+                    <li class="tm-bg-control" data-id="1"></li>
+                    <li class="tm-bg-control" data-id="2"></li>
+                </ul>            
+            </div>        
+            <div class="tm-col-right tm-col-footer">
+                <footer class="tm-site-footer text-right">
+                    <p class="mb-0">Copyright 2022. KGL og ice Store. </p>
+                </footer>
+            </div>  
+        </div>        
+
+        <!-- Diagonal background design -->
+        
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+</body>
+
+</html>
